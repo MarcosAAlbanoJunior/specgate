@@ -1,0 +1,12 @@
+# Copy to <your-project>/specgate.config (plain shell KEY=VALUE, sourced by gate.sh).
+# Every key is optional; without them the gate auto-detects the stack.
+
+# Replaces the auto-detected build + test command entirely.
+# GATE_CMD="./mvnw -q -B verify"
+
+# Lint command. Runs after GATE_CMD. Auto-detected for npm ("lint" script) and Go (go vet).
+# LINT_CMD="./mvnw -q -B checkstyle:check"
+
+# Minimum line coverage in percent. Reads JaCoCo CSV (Maven/Gradle), Go cover output
+# or coverage/coverage-summary.json (npm, json-summary reporter). Unset = no check.
+# COVERAGE_MIN=80

@@ -1,0 +1,15 @@
+{
+  "name": "specgate",
+  "description": "Marketplace for the specgate spec-driven workflow plugin.",
+  "owner": {
+    "name": "Marcos Albano Junior",
+    "url": "https://github.com/MarcosAAlbanoJunior"
+  },
+  "plugins": [
+    {
+      "name": "specgate",
+      "source": "./",
+      "description": "Spec-driven workflow with deterministic gates and human approval, tuned for the Pro plan quota."
+    }
+  ]
+}
